@@ -3,26 +3,26 @@
 
 ## 📁 Dataset Overview
 The dataset contains the following columns:
-Index(['Title', 'Rating', 'Views'], dtype='object')
+Index(['Name', 'Rating', 'Genre'], dtype='object')
 
 ## 🔍 Summary Statistics
-         Title    Rating        Views
-count        5  5.000000     5.000000
-unique       5       NaN          NaN
-top     Movie1       NaN          NaN
-freq         1       NaN          NaN
-mean       NaN  4.220000   950.000000
-std        NaN  0.383406   161.864141
-min        NaN  3.800000   780.000000
-25%        NaN  3.900000   850.000000
-50%        NaN  4.200000   920.000000
-75%        NaN  4.500000  1000.000000
-max        NaN  4.700000  1200.000000
+          Name    Rating   Genre
+count        5  5.000000       5
+unique       5       NaN       5
+top     Movie1       NaN  Action
+freq         1       NaN       1
+mean       NaN  4.220000     NaN
+std        NaN  0.383406     NaN
+min        NaN  3.800000     NaN
+25%        NaN  3.900000     NaN
+50%        NaN  4.200000     NaN
+75%        NaN  4.500000     NaN
+max        NaN  4.700000     NaN
 
 ## ❗ Missing Values
-Title     0
+Name      0
 Rating    0
-Views     0
+Genre     0
 
 ## 📈 Insights
 - Dataset shows distribution patterns across variables
